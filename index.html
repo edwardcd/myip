@@ -1,16 +1,10 @@
 <html>
 <head>
-  <?php
-    $myIP = $_SERVER['REMOTE_ADDR'];
-    echo $myIP;
-  ?>
 <title>myIP</title>
 </head>
 <body>
-  <?php
-    $myIP = $_SERVER['REMOTE_ADDR'];
-    echo $myIP;
-    print $myIP;
-  ?>
+<script type="text/javascript">var userip;</script>
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+<script type="text/javascript">  document.write("Your IP is :", userip);</script>
 </body>
 </html>
